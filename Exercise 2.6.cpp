@@ -6,6 +6,9 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    double payAmount = 2200.0;
+    int payPeriods = 26;
+    int annualPay= payAmount * payPeriods;
+    cout << "Your Annual Pay is: " << annualPay << "\n";
 }
 
