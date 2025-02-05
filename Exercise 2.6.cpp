@@ -6,9 +6,13 @@ using namespace std;
 
 int main()
 {
-    double payAmount = 2200.0;
-    int payPeriods = 26;
-    int annualPay= payAmount * payPeriods;
+    double payAmount;
+    int payPeriods;
+    cout << "How Much Do You Get Payed Per Pay Period: ";
+    cin >> payAmount;
+    cout << "How Many Pay Periods Per Year: ";
+    cin >> payPeriods;
+    double annualPay= payAmount * payPeriods;
     cout << "Your Annual Pay is: " << annualPay << "\n";
 }
 
